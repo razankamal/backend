@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: url(ll.jpg) no-repeat;
+    background-size: cover;
+
+}
+.login-container{
+    position: absolute;
+    right: 460px;
+     display: flex;
+     flex-direction: column;
+     transition: .5s ease-in-out;
+     width: -100px;
+    margin: 0 auto;
+    backdrop-filter: blur(600px);
+    padding: 90px;
+    border-radius: 20px;
+    }
+.top {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top span {
+    font-size: 14px;
+    color: #fff;
+}
+.top header {
+    font-size: 24px;
+    margin-bottom: 30px;
+    top: 5px; 
+}
+.input-box {
+    margin-bottom: 20px;
+  }
+.input-box label {
+    display: block;
+    margin-bottom: 15px;
+    color:#fff;
+}
+.input-box i{
+    position: relative;
+    top:3px;
+    left: -40px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+header{
+    color: #fff;
+}
+
+.input-box input {
+    font-size: 15px;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    height: 50px;
+    width: 85%;
+    padding: 0 8px 0 35px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;
+}
+.input-box input:hover{
+    background: rgba(255,255,255,0.25);
+}
+
+.two-col {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.two-col .two label {
+    font-size: 14px;
+    color: #95b7da;
+  }
+  
+  .Button-link {
+    display: inline-block;
+    padding: 10px 80px;
+    background-color: #d6d5d5;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  #signup-link
+  {
+      color: #95b7da;
+      text-decoration: none;
+  }
+  #signup-link:hover
+{
+     text-decoration: underline;
+  }
+  @keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+  }
+
+  
